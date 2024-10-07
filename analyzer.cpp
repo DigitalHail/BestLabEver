@@ -15,7 +15,7 @@ int binary_search(std::vector<std::string>& container,std::string element) {
     int minima=0;
     //loop to check all cases until minima = maxima
     while ( minima<=max_count) {
-        //sets midpoint between the two bounds
+        //sets midpoint between the two bounds dudeeeeeeee
         int mid_index= int((minima+max_count)/2);
         // check for target equating to element selected
         if (container[mid_index] == element) {
@@ -65,7 +65,7 @@ int main() {
     start = systemTimeNanoseconds();
     index = binary_search(string_data, "aaaaa");
     end = systemTimeNanoseconds();
-    std::cout<<"binary search result for (aaaaa):"<< index<< " time: "<< end - start<<std::endl;
+    std::cout<<"Binary search result for (aaaaa):"<< index<< " time: "<< end - start<< "  merge conflict destroyer" <<std::endl;
     return 0;
 }
 
